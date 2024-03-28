@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+
+li{
+    display: inline-block;
+}
+
+
+.more a{
+    text-decoration: none;
+    border: 1px solid green;
+    padding: 20px;
+    /* margin-top: 50px; */
+}
+
+nav h1{
+    color: white;
+}
+
+
+nav a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+
+nav a:hover{
+    color: blue;
+}
+
+.hero{
+    width: 100%;
+    height: calc(100vh - 85px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.hero div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+
+.text h1{
+    font-size: 80px;
+}
+
+.text h3{
+font-size: 25px;
+}
+
+button{
+    width: 200px;
+    background-color: green;
+    color: white;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+}
+
+.about div{
+    text-align: center;
+}
+
+
+.about h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.Contact-us{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+input, textarea{
+    display: block;
+    margin-bottom: 8px;
+    border-radius: 7px;
+    /* font-size: medium;
+    width: 50vh;
+    height: auto;
+    border-radius: 50px; */
+    
+}
+
+
+input{
+    width: 450px;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+input::placeholder{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+input::placeholder{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+textarea::placeholder{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+textarea{
+    width: 450px;
+    height: 120px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.Contact-us h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.button{
+    width: 400px;
+    background-color: green;
+    color: white;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+} 
